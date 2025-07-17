@@ -71,3 +71,13 @@
     border: none;
     border-radius: 8px;
 }
+.banner-img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .nav-container, .nav-links{
+        flex-direction:column;
+    }
+    
+}
