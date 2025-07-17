@@ -40,6 +40,12 @@
 }
 .font-size{
     font-size: 45px;
+    border-left: 4px solid #FF900E;
+    padding-left: 21px;
+    width: 464px;
+}
+.font-size20px{
+    font-size: 20px;
 }
 
 /* nav section */
@@ -112,6 +118,28 @@
     margin-bottom: 0;
 }
 
+/* features enjoy secton */
+
+.features-enjoy-title{
+    border-left: 4px solid #FF900E;
+    padding-left: 21px;
+    width: 464px;
+}
+.features-enjoy-container{
+    justify-content: space-between;
+}
+.features-enjoy-content1{
+    width: 586px;
+}
+.features-article{
+    border: 1px solid black;
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 8px;
+}
+.features-article-title{
+    margin-top: 0;
+}
 @media screen and (max-width:576px) {
     .nav-container, .nav-links, .Features-container{
         flex-direction:column;
