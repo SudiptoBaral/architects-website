@@ -138,6 +138,9 @@
 .features-article-title{
     margin-top: 0;
 }
+.features-container-img{
+    width: 100%;
+}
 .button10year{
     padding: 45px;
     border: none;
@@ -156,7 +159,7 @@
     color: white;
 }
 @media screen and (max-width:576px) {
-    .nav-container, .nav-links, .Features-container{
+    .nav-container, .nav-links, .Features-container, .features-enjoy-container{
         flex-direction:column;
     }
     .features-conternt1{
@@ -165,5 +168,12 @@
     .features-conternt2{
         width: 100%;
         margin-left: 20px;
+    }
+    .features-enjoy-content1{
+        width: 100%;
+    }
+    .button10year{
+        margin-left: 0;
+        
     }
 }
