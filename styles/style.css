@@ -243,11 +243,17 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 60px;
     }
+    .facts-content1-pragraph{
+        width: 400px;
+    }
     .sponspors-content2, .sponspors-content2-img{
         width: 150px;
     }
     .sponspors-content2{
         margin: 0 auto;
         gap: 15px;
+    }
+    .sponsors-content1{
+        width: 400px;
     }
 }
