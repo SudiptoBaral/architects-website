@@ -189,10 +189,27 @@
     padding: 100px 50px;
 }
 
+/* sponspors section */
+
+.sponsors-content1{
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sponspors-content1-title{
+    margin-bottom: 10px;
+}
+.sponspors-content2{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
 
 
 @media screen and (max-width:576px) {
-    .nav-container, .nav-links, .Features-container, .features-enjoy-container{
+    .nav-container, .nav-links, .Features-container, 
+    .features-enjoy-container, .sponspors-content2{
         flex-direction:column;
     }
     .features-conternt1{
@@ -212,5 +229,12 @@
     .facts-badge-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 60px;
+    }
+    .sponspors-content2, .sponspors-content2-img{
+        width: 150px;
+    }
+    .sponspors-content2{
+        margin: 0 auto;
+        gap: 15px;
     }
 }
